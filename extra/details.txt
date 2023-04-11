@@ -1,0 +1,29 @@
+encrypt:
+
+-> 
+python AESencrypt.py plaintext1.txt ciphertext.txt
+
+Enter in the 16 character passphrase to encrypt your text file plaintext1.txt
+
+-> 
+higithub 
+
+-----------------------------------------------------------------------
+
+decrypt:
+
+
+-> 
+python AESdecrypt.py ciphertext.txt plaintext2.txt 
+
+test case 1: enter wrong passphrase
+Enter in the 16 character passphrase to encrypt your text file plaintext1.txt
+
+-> 
+byegithub 
+
+test case 2: enter correct passphrase
+Enter in the 16 character passphrase to encrypt your text file plaintext1.txt
+
+-> 
+higithub 
